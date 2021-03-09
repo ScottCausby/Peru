@@ -1,13 +1,22 @@
 from flask import Flask, render_template
 
-# Initialize an instance of the Flask class
 app = Flask(__name__)
 
-# Define a path: "/" is the "root"
 @app.route('/')
 def home():
   return render_template("index.html")
 
-# Run the app when the program starts!
+@app.route('/Lima')
+def lima():
+  return render_template("lima.html")  
+
+@app.route('/LocalCuisines')
+def food():
+  return render_template("food.html")
+
+@app.route('/FootballTeam')  
+def football():
+  return render_template("football.html")
+
 if __name__ == '__main__':
     app.run(debug=True)
