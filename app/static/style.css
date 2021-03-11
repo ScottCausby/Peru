@@ -1,7 +1,45 @@
 body  {
-    background: url("https://mfiles.alphacoders.com/800/800636.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    backdrop-filter: brightness(50%);
+    background-color: red;
+    
+}
+
+.container {
+    max-width: 1020px;
+    margin:0 auto;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.foot {
+    text-align: center;
+}
+
+.food {
+    height: 30em;
+    width: 550px;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.football {
+    height: 650px;
+    width: 980px;  
+}
+
+.team {
+    height: 500px;
+    width: 980px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.foods {
+    text-align: center;
 }

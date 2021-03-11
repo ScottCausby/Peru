@@ -10,7 +10,7 @@ def home():
 def lima():
   return render_template("lima.html")  
 
-@app.route('/LocalCuisines')
+@app.route('/Foodanddrink')
 def food():
   return render_template("food.html")
 
